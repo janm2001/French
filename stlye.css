@@ -82,6 +82,10 @@ section{
     height: 500px;
 }
 
+#podcast h1{
+    font-size: 3rem;
+}
+
 .author{
     color:#999;
     font-weight: 800;
