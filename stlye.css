@@ -74,6 +74,14 @@ section{
     font-size:1.1rem;
 }
 
+#books{
+    background:#eee;
+    font-family: 'Noto Sans',serif ;
+}
+#books h1,h2,h3{
+    font-family: 'Trade Winds',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
 .bg{
     background: url("img/12pod.jpg");
     background-size: cover;
@@ -161,7 +169,7 @@ section #anki{
     }
 
     iframe{
-        width: 350px;
+        width: 300px;
         height: 250px;
     }
 }
