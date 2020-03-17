@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning French</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="stlye.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -169,6 +170,14 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
+              <br>
+              <a id="profile-link" target="_blank" style="padding-left:20px;" href="https://github.com/janm2001"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+	
+	<a target="_blank" style="padding-left:20px;" href="https://www.freecodecamp.org/janmackovic"><i id="code" class="fa fa-free-code-camp fa-5x" aria-hidden="true"></i></a>
+  <a target="_blank" style="padding-left:20px;" href="https://twitter.com/Jan48561857"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a>
+	<a target="_blank" style="padding-left:20px; " href="https://www.quora.com/profile/Jan-Mackovic-1"><i id="quora" class="fa fa-quora fa-5x" aria-hidden="true"></i></a>
+  <a target="_blank" style="padding-left:20px;" href="https://www.facebook.com/jan.mackovic.7"><i class="fa fa-facebook fa-5x" aria-hidden="true"></i></a>
+  <br>
               <p>Jan Mackovic &copy; 2020</p>
             </div>
           </div>
@@ -178,6 +187,18 @@
 
 
 
-    
+    <script>
+    $(window).on('resize', function() {
+  var win = $(this);
+  if (win.width() > 800) {
+
+    $('i').addClass('fa-5x');
+
+  } else {
+    $('i').removeClass('fa-5x');
+    $('i').addClass('fa-2x');
+  }
+});
+    </script>
 </body>
 </html>
